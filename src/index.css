@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Montserrat sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+body {
+ 
+  overflow-x: hidden;
+  color: black;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+
+}
+section {
+  width: 100%;
+}
+@theme {
+  --font-sans: 'Montserrat', sans-serif;
+  
+  /* Browns  */
+  --color-brown-50: #bf935d; /* rgb(191, 147, 93) */
+  --color-brown-200: #986a3b; /* rgb(152, 106, 59) */
+  --color-brown-400: #744c3d; /* rgb(116, 76, 61) */
+  --color-black: #000000; /* rgb(0, 0, 0) */
+  --color-white: #ffffff; /* rgb(255, 255, 255) */
+
+  /*greys */
+  --color-grey-50: #d5cbcb; /* rgb(245, 245, 245) */
+  --color-grey-200: #a19e9e; /* rgb(161, 161, 161) */
+  
+
+  --backgroundImage-gold-brown: linear-gradient(135deg, #bf935d, #744c3d);
+  --backgroundImage-gold-grey: linear-gradient(135deg, #bf935d, #a19e9e);
+  --backgroundImage-gold-black: linear-gradient(135deg, #bf935d, #000000);
+  --backgroundImage-gold-rose: linear-gradient(135deg, #bf935d, #ae9794);
+  --backgroundImage-brown-dark: linear-gradient(180deg, #986a3b, #744c3d);
+  --backgroundImage-white-gold: linear-gradient(135deg, #ffffff, #bf935d);
+
+}
+@layer utilities {
+  .container {
+    @apply mx-auto max-w-[1252px] px-16 max-xl:px-10 max-lg:px-6; 
+  }
+   .h1 {
+    @apply text-[84px] font-black leading-[84px] tracking-[-0.03em];
+  }
+  .h2 {
+    @apply text-[64px] text-brown-400 font-extrabold leading-[64px];
+  }
+    .h3 {
+    @apply text-[48px] font-semibold leading-[56px] tracking-[-0.02em];
+  }
+   .h5 {
+    @apply text-[32px] font-semibold leading-[40px];
+  }
+   .small-2 {
+    @apply text-[13px] font-bold leading-[16px] tracking-[0.3em];
+  }
+  .body-1 {
+    @apply text-[22px] leading-[36px];
+  }
+
+  .body-2 {
+    @apply text-[18px] font-semibold leading-[32px];
+  }
+
+  .body-3 {
+    @apply text-[16px] leading-[28px] tracking-[0.02em];
+  }
+   .base-bold {
+    @apply text-[16px] font-bold leading-[24px];
+  }
+
+
+   /* START of Gradients */
+   .g1{
+    background: linear-gradient(135deg, #bf935d, #744c3d);
+   }
+   .g2{
+    background: linear-gradient(135deg, #bf935d, #a19e9e);
+   }
+   .g3{
+    background: linear-gradient(135deg, #bf935d, #000000);
+   }
+   .g4{
+    background: linear-gradient(135deg, #bf935d, #ae9794);
+   }
+   .g5{
+    background: linear-gradient(180deg, #986a3b, #744c3d);
+   }
+   .g6{
+    background: linear-gradient(135deg, #ffffff, #bf935d);
+   }
+    /* END of Gradients */
+    /* START of common */
+    .caption {
+    @apply  mb-5 uppercase text-brown-400;
+  }
+  
+}
+
+@layer components {
+/* Container */
+.nav-ribbon {
+  @apply fixed top-0 z-50 flex w-full items-start justify-between bg-brown-200 px-4 py-1 text-white h-19 lg:items-center lg:px-44 lg:py-5 lg:h-20;
+}
+.ribbon-logo {
+  @apply flex flex-col text-left text-sm font-sans lg:items-center lg:justify-center lg:text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2;
+}
+.ribbon-link-group {
+  @apply flex flex-col items-end gap-3 mt-3 lg:flex lg:flex-col lg:items-start lg:gap-1;
+}
+
+.ribbon-link {
+  @apply text-sm whitespace-nowrap lg:text-lg hover:font-extrabold;
+}
+
+
+ .nav-li {
+    @apply relative flex flex-1 lg:items-center justify-between flex-col items-start;
+  }
+  .nav-link {
+    @apply text-2xl font-bold leading-6 text-brown-400 no-underline my-4 lg:text-lg hover:font-extrabold lg:my-2;
+  }
+  .nav-link.active {
+  @apply underline decoration-brown-400 underline-offset-4;
+}
+.sidebar-before {
+    @apply max-lg:before:absolute max-lg:before:-right-64 max-lg:before:top-2/5 max-lg:before:h-[440px] max-lg:before:w-[252px] max-lg:before:bg-brown-50 max-lg:before:blur-[200px] max-lg:before:content-[''];
+  }
+
+
+/* Hero Section */
+
+}
+  
+/* Footer Section */
+@layer components {
+.max-container {
+  max-width: 1540px;
+  margin: 0 auto;
+}
+}
+
+
+
+
+
