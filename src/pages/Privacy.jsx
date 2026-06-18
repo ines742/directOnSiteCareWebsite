@@ -1,150 +1,178 @@
-import React from 'react'
+import React from "react";
 
 const Privacy = () => {
   return (
     <>
-    {/* Hero */}
-<section className="relative bg-brown-400/5 py-40 max-lg:py-28">
-  <div className="container text-center max-w-3xl">
-    <h1 className="mb-6 text-6xl font-black tracking-tight text-brown-400 max-md:text-4xl">
-      Privacy Policy
-    </h1>
-    <p className="text-xl text-grey-400 max-md:text-lg">
-      We respect your privacy. Learn how we collect, use, and safeguard your information.
-    </p>
-  </div>
-</section>
+      {/* Hero */}
+      <section className="bg-[#002D74] py-40 max-lg:py-28">
+        <div className="container mx-auto max-w-4xl px-5 text-center">
+          <h1 className="mb-6 text-5xl font-bold text-white md:text-6xl">
+            Privacy Policy
+          </h1>
 
-{/* Content */}
-<section className="py-32 max-lg:py-24">
-  <div className="container max-w-4xl space-y-16 text-grey-400">
+          <p className="text-lg leading-8 text-white/80 md:text-xl">
+            Direct On Site Care is committed to protecting your privacy and
+            safeguarding your personal information.
+          </p>
+        </div>
+      </section>
 
-    <p className="body-1 leading-relaxed">
-      This Privacy Policy governs the manner in which Skinny Drip LLC ("we," "us," or "our")
-      collects, uses, protects, and discloses information collected from users ("User") of{" "}
-      <a
-        href="https://www.skinny-drip.com"
-        target="_blank"
-        rel="noreferrer"
-        className="font-medium text-brown-400 underline underline-offset-4"
-      >
-        www.skinny-drip.com
-      </a>{" "}
-      (the "Site"). It applies to all services offered by Skinny Drip LLC ("Services").
-    </p>
+      {/* Content */}
+      <section className="py-24">
+        <div className="container mx-auto max-w-4xl px-5 space-y-14 text-slate-700">
 
-    <p className="body-1 leading-relaxed">
-      By using our Site, you agree to the collection and use of information in accordance with
-      this policy. We may update this Privacy Policy at any time without notice. Continued use
-      of the Site after changes are posted constitutes acceptance of those changes.
-    </p>
+          <p className="text-lg leading-8">
+            This Privacy Policy describes how Direct On Site Care collects,
+            uses, and protects information submitted through this website. By
+            using our website, you agree to the practices outlined in this
+            policy.
+          </p>
 
-    <hr className="border-brown-400/20" />
+          {/* Information We Collect */}
+          <div>
+            <h2 className="mb-5 text-3xl font-bold text-[#002D74]">
+              Information We Collect
+            </h2>
 
-    {/* Section */}
-    <div className="space-y-6">
-      <h3 className="h4 text-brown-600">1. What Information Do We Collect?</h3>
-      <ul className="list-disc pl-6 space-y-3 body-1">
-        <li><strong>Personal Information:</strong> Name, email, phone number, address, payment details.</li>
-        <li><strong>Non-Personal Information:</strong> Browser type, IP address, device data, usage patterns.</li>
-        <li><strong>Cookies & Tracking:</strong> We use cookies and similar technologies.</li>
-      </ul>
-    </div>
+            <ul className="list-disc space-y-3 pl-6 leading-8">
+              <li>Name and contact information provided through forms.</li>
+              <li>Email address and phone number.</li>
+              <li>Information submitted when requesting services or appointments.</li>
+              <li>Website usage data collected through analytics tools.</li>
+              <li>Device, browser, and IP address information.</li>
+            </ul>
+          </div>
 
-    <div className="space-y-6">
-      <h3 className="h4 text-brown-600">2. How Do We Use Your Information?</h3>
-      <ul className="list-disc pl-6 space-y-3 body-1">
-        <li>To process transactions and deliver products or services.</li>
-        <li>To personalize user experience and improve customer support.</li>
-        <li>To send updates, offers, and newsletters (with opt-out options).</li>
-        <li>To comply with legal requirements and prevent fraud.</li>
-        <li>To conduct analytics and enhance site functionality.</li>
-      </ul>
-    </div>
+          {/* How We Use Information */}
+          <div>
+            <h2 className="mb-5 text-3xl font-bold text-[#002D74]">
+              How We Use Your Information
+            </h2>
 
-    <div className="space-y-6">
-      <h3 className="h4 text-brown-600">3. How Do We Protect Your Information?</h3>
-      <ul className="list-disc pl-6 space-y-3 body-1">
-        <li>Secure payment processing with encryption.</li>
-        <li>Password-protected accounts with limited employee access.</li>
-        <li>Routine security updates and monitoring.</li>
-      </ul>
-      <p className="italic text-sm text-grey-300">
-        Note: No internet transmission is 100% secure. Use the Site at your own risk.
-      </p>
-    </div>
+            <ul className="list-disc space-y-3 pl-6 leading-8">
+              <li>To respond to inquiries and requests.</li>
+              <li>To provide healthcare-related services and support.</li>
+              <li>To schedule appointments and communicate with patients.</li>
+              <li>To improve website performance and user experience.</li>
+              <li>To comply with legal and regulatory requirements.</li>
+            </ul>
+          </div>
 
-    <div className="space-y-6">
-      <h3 className="h4 text-brown-600">4. Do We Share Your Information?</h3>
-      <ul className="list-disc pl-6 space-y-3 body-1">
-        <li><strong>We do not sell or rent your data.</strong></li>
-        <li>Information may be shared with trusted third-party service providers.</li>
-        <li>Disclosure may occur if required by law.</li>
-        <li>In the event of a merger or sale, information may be transferred.</li>
-      </ul>
-    </div>
+          {/* Scheduling */}
+          <div>
+            <h2 className="mb-5 text-3xl font-bold text-[#002D74]">
+              Appointment Scheduling
+            </h2>
 
-    <div className="space-y-6">
-      <h3 className="h4 text-brown-600">5. How Can You Control Your Information?</h3>
-      <ul className="list-disc pl-6 space-y-3 body-1">
-        <li>Update or delete your profile through your account.</li>
-        <li>Unsubscribe from emails via the link in our messages.</li>
-        <li>Disable cookies in your browser (may limit site functionality).</li>
-        <li>
-          Contact us at{" "}
-          <a
-            href="mailto:contact@skinny-drip.com"
-            className="font-medium text-brown-400 underline underline-offset-4"
-          >
-            contact@skinny-drip.com
-          </a>{" "}
-          for data-related requests.
-        </li>
-      </ul>
-    </div>
+            <p className="leading-8">
+              Our website may direct visitors to a third-party scheduling
+              platform to request or manage appointments. Information submitted
+              through those platforms is governed by the privacy policies and
+              security practices of those providers.
+            </p>
+          </div>
 
-    <div className="space-y-6">
-      <h3 className="h4 text-brown-600">6. Children’s Privacy</h3>
-      <p className="body-1">
-        We do not knowingly collect personal data from children under the age of 13.
-      </p>
-    </div>
+          {/* HIPAA */}
+          <div>
+            <h2 className="mb-5 text-3xl font-bold text-[#002D74]">
+              Healthcare Information & HIPAA
+            </h2>
 
-    <div className="space-y-6">
-      <h3 className="h4 text-brown-600">7. Third-Party Links</h3>
-      <p className="body-1">
-        Our Site may contain links to third-party websites. We are not responsible for their
-        privacy practices or content.
-      </p>
-    </div>
+            <p className="leading-8">
+              Direct On Site Care takes patient privacy seriously. Any protected
+              health information (PHI) collected during the delivery of
+              healthcare services is handled in accordance with applicable
+              healthcare privacy laws and regulations, including HIPAA where
+              applicable.
+            </p>
 
-    <div className="space-y-6">
-      <h3 className="h4 text-brown-600">8. Changes to This Policy</h3>
-      <p className="body-1">
-        We may revise this Privacy Policy periodically. Please review this page for updates.
-      </p>
-    </div>
+            <p className="mt-4 leading-8">
+              Please do not submit sensitive medical information through general
+              website contact forms unless specifically requested.
+            </p>
+          </div>
 
-    <div className="space-y-6">
-      <h3 className="h4 text-brown-600">9. Contact Us</h3>
-      <p className="body-1">
-        If you have questions about this Privacy Policy, email us at{" "}
-        <a
-          href="mailto:contact@skinny-drip.com"
-          className="font-medium text-brown-600 underline underline-offset-4"
-        >
-          contact@skinny-drip.com
-        </a>
-      </p>
-    </div>
+          {/* Cookies */}
+          <div>
+            <h2 className="mb-5 text-3xl font-bold text-[#002D74]">
+              Cookies & Analytics
+            </h2>
 
-    <p className="pt-12 text-sm text-grey-300">
-      <strong>Last Updated:</strong> January 5, 2025
-    </p>
-  </div>
-</section>
-</>
-  )
-}
+            <p className="leading-8">
+              We may use cookies and analytics tools to better understand how
+              visitors use our website. This information helps us improve
+              website functionality and user experience.
+            </p>
+          </div>
 
-export default Privacy
+          {/* Data Security */}
+          <div>
+            <h2 className="mb-5 text-3xl font-bold text-[#002D74]">
+              Data Security
+            </h2>
+
+            <p className="leading-8">
+              We implement reasonable administrative, technical, and physical
+              safeguards designed to protect personal information from
+              unauthorized access, disclosure, alteration, or destruction.
+            </p>
+          </div>
+
+          {/* Third Party */}
+          <div>
+            <h2 className="mb-5 text-3xl font-bold text-[#002D74]">
+              Third-Party Links
+            </h2>
+
+            <p className="leading-8">
+              This website may contain links to third-party websites. We are not
+              responsible for the privacy practices or content of those external
+              websites.
+            </p>
+          </div>
+
+          {/* Changes */}
+          <div>
+            <h2 className="mb-5 text-3xl font-bold text-[#002D74]">
+              Changes to This Privacy Policy
+            </h2>
+
+            <p className="leading-8">
+              Direct On Site Care reserves the right to update this Privacy
+              Policy at any time. Any changes will be posted on this page with
+              an updated effective date.
+            </p>
+          </div>
+
+          {/* Contact */}
+          <div className="rounded-3xl bg-slate-50 p-8">
+            <h2 className="mb-5 text-3xl font-bold text-[#002D74]">
+              Contact Us
+            </h2>
+
+            <p className="leading-8">
+              If you have questions regarding this Privacy Policy or how your
+              information is handled, please contact Direct On Site Care.
+            </p>
+
+            <div className="mt-6 space-y-2">
+              <p>
+                <strong>Email:</strong> bcosens@directonsitecare.com
+              </p>
+
+              <p>
+                <strong>Phone:</strong> (620) 249-9131
+              </p>
+            </div>
+          </div>
+
+          <p className="border-t pt-8 text-sm text-slate-500">
+            Last Updated: May 2026
+          </p>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Privacy;
