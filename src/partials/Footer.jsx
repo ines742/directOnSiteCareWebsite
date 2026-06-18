@@ -1,49 +1,82 @@
-import { footerLinks } from '../constants';
-import copyrightIcon from '../assets/copyright-sign.svg';
+import { footerLinks } from "../constants";
+import copyrightIcon from "../assets/copyright-sign.svg";
 
 const Footer = () => {
   return (
-    <footer className='max-container mt-28 bg-gray-100'>
-        <div className='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col max-lg:items-center py-10 max-lg:mx-4'>
-            <div className='flex flex-col items-start lg:pl-48 '>
-                <a href='/'>
-                <img src="/images/transparentLogoNavbar.png" 
+    <footer className="mt-28 bg-[#f4f7fc] text-black">
+      <div className="container mx-auto px-5 pt-14">
+        <div className="grid gap-12 lg:grid-cols-[1.2fr_1fr]">
+          {/* Logo + Description */}
+          <div>
+            <a href="/">
+              <img
+                src="/images/careLogo.png"
                 width={250}
                 height={60}
-                alt="SkinnyDrip logo"/>
-                </a>
-                <p className='mt-6 text-base leading-7 sm:max-w-sm '>Our mission is to foster a community where individuals can embrace their best selves with the support of 
-                innovative treatments and a dedicated team.</p>
-            </div>
-            <div className='flex flex-1 justify-between lg:gap-4 gap-20 flex-wrap lg:mr-36 lg:mt-10' >
-                {footerLinks.map((section) => (
-                    <div key={section.id}>
-                        <h4 className='text-brown-600 text-2xl leading-normal font-medium mb-6'>{section.title}</h4>
-                        <ul>
-                            {section.links.map((link) => (
-                                <li className='mt-3 text-base leading-normal hover:text-brown-400 cursor-pointer'
-                                    key={link.name}>
-                                    <a href={link.link}>{link.name}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                ))}
-            </div>
-        </div>
-        <div className='flex justify-between mt-2 max-sm:items-center'>
-            <div className='flex flex-1 justify-center items-center gap-2'>
-                <img src={copyrightIcon}
-                 alt="copy right sign"
-                 width={20}
-                 height={20}
-                 className='rounded-full m-0 bg-black '/>
-                 <p>2024 Copyright: SkinnyDRIP</p>
+                alt="Direct Onsite Care logo"
+                className="mb-6"
+              />
+            </a>
 
-            </div>
+            <p className="max-w-md leading-7 text-black/80">
+              Direct Onsite Care provides convenient workplace healthcare
+              solutions that help employers reduce costs, support employee
+              wellness, and improve productivity.
+            </p>
+
+            <div className="mt-6 h-1 w-20 rounded-full bg-[#85754E]" />
+          </div>
+
+          {/* Footer Links */}
+          <div className="grid gap-10 sm:grid-cols-2">
+            {footerLinks.map((section) => (
+              <div key={section.id}>
+                <h4 className="mb-5 text-xl font-semibold text-[#85754E]">
+                  {section.title}
+                </h4>
+
+                <ul className="space-y-3">
+                  {section.links.map((link) => (
+                    <li key={link.name}>
+                      {link.link ? (
+                        <a
+                          href={link.link}
+                          target={link.link.startsWith("http") ? "_blank" : undefined}
+                          rel={link.link.startsWith("http") ? "noopener noreferrer" : undefined}
+                          className="text-black/80 transition hover:text-[#85754E]"
+                        >
+                          {link.name}
+                        </a>
+                      ) : (
+                        <span className="text-black/80">{link.name}</span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
+
+        {/* Bottom */}
+        <div className="mt-12 border-t border-black/15 pt-2">
+          <div className="flex flex-col items-center justify-between gap-4 text-sm text-black/70 md:flex-row">
+            <div className="flex items-center gap-2">
+              <img
+                src={copyrightIcon}
+                alt="copyright sign"
+                width={18}
+                height={18}
+                className="rounded-full bg-brown-200 p-0.5"
+              />
+              <p>2026 Direct Onsite Care. All rights reserved.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </footer>
-  )
-}
+  );
+};
 
 export default Footer;

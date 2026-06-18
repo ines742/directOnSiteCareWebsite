@@ -1,201 +1,21 @@
-export const services = [
-    {
-        id: "0",
-        title: "Esthetics",
-        description: "Elevate your confidence and unveil your best self with our luxurious, cutting-edge esthetics services",
-        img: "/images/aesthetic.jpg",
-        button: {
-            text: "Explore Esthetics",
-            link: "/esthetics"
-        }
-    },
-    {
-        id: "1",
-        title: "IV Therapy",
-        description: "Recharge, refresh, and feel unstoppable with our premium IV therapy treatments",
-        img: "/images/hydration.jpg",
-        button: {
-            text: "Discover IV Therapy",
-            link: "/iv-therapy"
-        }
-    },
-    {
-        id: "2",
-        title: "Weight Loss",
-        description: "Transform your health & achieve lasting results with our personalized weight loss solutions",
-        img: "/images/weight.jpg",
-        button: {
-            text: "Start Your Journey",
-            link: "/weight-loss"
-        }
-    }
+export const navLinks = [
+  {
+    title: "Services",
+    path: "/services",
+  },
+  {
+    title: "Testimonials",
+    path: "/testimonials",
+  },
+  {
+    title: "About",
+    path: "/about",
+  },
+  {
+    title: "Schedule",
+    path: "https://booknow.appointment-plus.com/6knzspgy/",
+  },
 ];
-
-export const estheticsServices = [
-    {
-        id: "0",
-        title: "Neurotoxins",
-        img: "/images/neurotoxins.jpg",
-        description: "Reduce fine lines and wrinkles by temporarily relaxing facial muscles. The quick treatment requires no downtime, making it perfect for areas like the forehead, crow's feet, and frown lines."
-    },
-    {
-        id: "1",
-        title:"Custom Facials",
-        img: "/images/customf.jpg",
-        description: "Designed to meet your skin needs, enhancing hydration and radiance."
-    }, 
-    {
-        id: "2",
-        title: "Dermal Fillers",
-        img: "/images/dermafill.jpg",
-        description: "Restore volume to the face, reducing signs of aging and enhancing facial contours. They plump lips and soften wrinkles, help with loss of volume to mid face with immediate results and minimal discomfort."
-    },
-    {
-        id: "3",
-        title: "Dermaplane",
-        img: "/images/dermap.jpg",
-        description: "Remove dead skin cells and fine hair, revealing a fresh, vibrant look."
-
-    },
-    {
-        id: "4",
-        title: "Eyelashes Extensions",
-        img: "/images/eyelashes.jpg",
-        description: "Enhance your eyes with lightweight lash extensions that add length, volume, and a touch of glamour to your look."
-    },
-    {
-        id: "5",
-        title: "Hydro Facial",
-        img: "/images/hydrofacial.jpg",
-        description: "Deeply cleanse and hydrate with our hydro facials, perfect for all skin types."
-    },
-    {
-        id: "6",
-        title: "Ionic Foot Detox",
-        img: "/images/ionicFootD.jpg",
-        description: "Rejuvenate your body and promote overall wellness with our relaxing ionic foot detox, designed to cleanse and restore balance."
-    },
-    {
-        id: "7",
-        title: "Microdermabrasion",
-        img: "/images/micro.jpg",
-        description: "Exfoliate and renew your skin with microdermabrasion, improving texture and tone for a radiant complexion."
-    },
-    {
-        id: "8",
-        title: "Spray Tanning",
-        img: "/images/tanning.jpg",
-        description: "Achieve a natural, sun-kissed glow without the sun damage with our quick-drying, customizable spray tanning treatments."
-    },
-    {
-        id: "9",
-        title: "Waxing",
-        img: "/images/waxingleg.jpg",
-        description: "Experience smooth, hair-free skin with our professional waxing services, tailored for all skin types and areas."
-    }
-
-];
-
-export const ivTherapyServices = [
-    {
-        id: "0",
-        title: "Hydration",
-        img: "/images/drinking.jpg",
-        description: "This service provides instant hydration and electrolytes. Whether you have been hitting the gym hard, partying all night or just need a pick me up, hydration will put the pep back in your step." 
-    },
-    {
-        id: "1",
-        title: "Athlete Recovery",
-        img: "/images/athlete.jpg",
-        description: "Amino acids and B12 help with muscle conditioning, recovery and endurance. This blend also assists in our bodies nervous system, metabolisn and protein synthesis."
-    },
-    {
-        id: "2",
-        title: "Beauty & Youth",
-        img: "/images/beauty.jpg",
-        description: "Provides essential nutrients, antioxidants and vitamins that support our hormone pathways, reduce oxidative stress, and nourish the body to produce fatty acids preventing premature and visible skin ageing."
-    },
-    {
-        id: "3",
-        title: "Immune",
-        img: "/images/immune.jpg",
-        description: "Contains zinc to block viral replication and assist cells mediating immunity. Provides Vitamin C to boost lymphocyte and phagocyte production, acting as a powerful antioxidant which protects cells and assists healing."
-    },
-    {
-        id: "4",
-        title: "Detox & Hangover",
-        img: "/images/detox.jpg",
-        description: "Contains essential vitamins and minerals to combat dehydration and reduce oxidative stress on ther liver, cardiovascular, and endocrine systems by assisting in detoxification of the body. Reduces nause which is also helpful to recovery."
-    },
-    {
-        id: "5",
-        title: "Energy",
-        img: "/images/energy.jpg",
-        description: "The combination of amino acids, vitamin, and minerals reduces inflamotory responses and combats fatigue by impoving muscle recovery at a cellular level, through anti-oxidation assisting serotonin production, reducing cellular damage, and aiding our bodies energy producing process."
-    },
-    {
-        id: "6",
-        title: "Fat Burner",
-        img: "/images/fat.jpg",
-        description: "These essential amino acids, vitamins and B12, are the perfect blend to transport fatty acids into mitochondria where they can be burned for energy. An extra benefit is mood improvement and additional appetite control."
-    },
-    {
-        id: "7",
-        title: "Myers",
-        img: "/images/myers.jpg",
-        description: "This blend of B vitamins, vitamin C, magnesium and calcium all work in combination to increase metabolism, replace electrolytes lost by dehydration, and facilitate enzymatic reactions in intracellular processes. It will revitalize, enhance relaxation, recovery, reduce blood pressure and stress."
-    },
-    {
-        id: "8",
-        title: "Migraine Relief",
-        img: "/images/migrane.jpg",
-        description: "his multifaceted infusion will improve vascular function linked to migrane attacks and reduces nausea."
-    },
-];
-
-export const weightLossServices = [
-    {
-        id: "0",
-        title:"Weight Loss Image",
-        img: "/images/weight1.jpg"
-    },
-    {
-        id: "1",
-        title:"Weight Loss Image",
-        img: "/images/weight-person.jpg"
-    },
-    {
-        id: "2",
-        title: "Weight Loss Image",
-        img: "/images/weight-p2.jpg",
-    },
-    {
-        id: "3",
-        title: "Weight Loss Image",
-        img: "/images/weight-floor.jpg"
-    }
-];
-
-export const professionals = [
-    {
-        id: "0",
-        name: "Sarah Morris, RN",
-        img:"/images/sarah.png",
-        biography: "Kansas Native. I'm an RN with 16 years of transforming lives through healthcare. I’m passionate about empowering others on their wellness journeys and your go-to for health insights & compassionate care.\n\nBringing experience & expertise with a heart for healing. Let’s cultivate a healthier future together!"
-    },
-    {
-        id: "1",
-        name: "Torie Allen, RN",
-        img: "/images/torie.jpg",
-        biography: "I’m Torie, and I’m very excited to announce that I will be joining the Skinny Drip team! I have been a RN for 11 years with most of my time spent in the ER. I also have worked Medical/Oncology and management. \n\nI grew up in Fort Scott and, besides 4 years, have lived in Fort Scott most of my adult life. I’m very excited to help you reach your health goals and help bring new opportunities to our community!"
-    },
-    {
-        id: "2",
-        name: "Alanna Scoot",
-        img: "/images/alanna.jpg",
-        biography: "I'm Alanna, wife & mother of four, raised in Fort Scott, Kansas. I have developed a deep passion for wellness & massage therapy. This journey has ignited my enthusiasm for the art of nurturing both the body and mind. \n\n I specialize in Relaxation, Swedish, and Deep Tissue massage, focusing on helping my clients alleviate pain, reduce stress, and enhance their overall well-being. I adopt a holistic approach to massage, addressing both the physical and emotional needs of my clients. Book your appointment with me today!"
-    },
-]
 
 export const footerLinks = [
     {
@@ -203,25 +23,237 @@ export const footerLinks = [
         title: "Useful Links",
         links: [
             { name: "Home", link: "/" },
-            { name: "Esthetics", link: "/esthetics" },
-            { name: "IV Therapy", link: "/iv-therapy" },
-            { name: "Weight Loss", link: "/weight-loss" },
-        ]
-    },
-    {
-        id: "2",
-        title: "Contact",
-        links: [
-            { name: "About Us", link: "/about" },
+            { name: "Services", link: "/services" },
+            { name: "Testimonials", link: "/testimonials" },
+            { name: "About", link: "/about" },
             { name: "Privacy Policy", link: "/privacy-policy" },
         ]
     },
     {
-        id: "3",
+        id: "2",
         title: "Get in Touch",
         links:[ 
-            { name: "contact@skinny-drip.com", link: "mailto:contact@skinny-drip.com"},
-            { name: "(620)-687-6721", link: "tel:+16206876721"},
+            { name: "bcosens@directonsitecare.com", link: "mailto:bcosens@directonsitecare.com"},
+            { name: "620-249-9131", link: "tel:+16202499131"},
+            {
+              name: "302 E. Centennial Pittsburg, KS 66762",
+              link: "https://www.google.com/maps/search/?api=1&query=302+E+Centennial+Pittsburg+KS+66762",
+            }
         ]
     },
+   
+];
+
+
+export const heroContent = {
+  title: "Healthcare Management Solutions in the Workplace",
+  subtitle:
+    "Direct On Site Care helps employers reduce healthcare costs, improve employee retention, and increase productivity through convenient onsite medical services.",
+  buttonText: "Schedule a Consultation",
+  buttonLink: "https://booknow.appointment-plus.com/6knzspgy/",
+};
+
+export const homeStats = [
+  {
+    value: "50%",
+    label: "Potential coding cost savings compared to traditional outside medical services.",
+  },
+  {
+    value: "10%+",
+    label: "Potential savings instead of yearly premium increases.",
+  },
+  {
+    value: "78%",
+    label: "Employees more likely to stay because of strong benefits.",
+  },
+];
+
+export const homeBenefits = [
+  {
+    title: "Lower Healthcare Costs",
+    image: "/images/lowerCost.png",
+    description:
+      "Onsite healthcare can help reduce unnecessary urgent care and emergency room visits while improving access to care.",
+  },
+  {
+    title: "Improved Employee Retention",
+    image: "/images/employeeRetention.png",
+    description:
+      "Strong healthcare benefits help employees feel valued, supported, and more likely to stay with the company.",
+  },
+  {
+    title: "Higher Productivity",
+    image: "/images/higherProductivity.png",
+    description:
+      "Convenient access to medical care helps employees address health concerns early, reducing absenteeism and improving workplace performance.",
+  },
+];
+
+export const servicesPreview = [
+  "Primary Care",
+  "Urgent Care",
+  "Workers Compensation",
+  "Occupational Health",
+  "Pharmacy",
+  "Laboratory",
+  "Radiology",
+  "Wellness Programs",
+];
+
+export const wellnessContent = {
+  title: "Preventative Health & Wellness",
+  description:
+    "Direct On Site Care supports healthier workplaces through biometric screenings, wellness programs, early detection, health coaching, and prevention-focused care.",
+};
+
+export const employeeBenefits = [
+  "Convenient access to healthcare at work",
+  "Timely diagnosis and treatment",
+  "Preventative care and health education",
+  "Onsite pharmacy and laboratory services",
+  "Appointments available online or by phone",
+];  
+
+
+export const serviceCategories = [
+  {
+    title: "Primary Care",
+    description:
+      "Convenient onsite primary care that supports timely diagnosis, treatment, chronic disease management, preventive care, and health education.",
+    items: [
+      "Convenience and accessibility",
+      "Timely diagnosis and treatment",
+      "Chronic disease management",
+      "Preventive care",
+      "Health education",
+    ],
+  },
+  {
+    title: "Occupational Health",
+    description:
+      "Workplace-focused healthcare services designed to help employees recover safely while helping employers reduce lost work time.",
+    items: [
+      "Injury assessment and treatment",
+      "Return-to-work programs",
+      "Ergonomics assessment",
+      "Reduced lost work time",
+      "Data-driven insights",
+    ],
+  },
+  {
+    title: "Workers Compensation",
+    description:
+      "Experienced workers compensation management that supports timely care, cost control, and better employee outcomes.",
+    items: [
+      "Timely injury care",
+      "Cost savings",
+      "Reduced absenteeism",
+      "Improved productivity",
+      "Employee satisfaction",
+    ],
+  },
+  {
+    title: "Wellness Programs",
+    description:
+      "Preventative health programs that support better lifestyle choices, screenings, early detection, and employee engagement.",
+    items: [
+      "Biometric screenings",
+      "Blood pressure checks",
+      "Height and weight",
+      "Waist measurement",
+      "Lab testing",
+    ],
+  },
+];
+
+export const commonCareServices = [
+  "Allergies",
+  "Asthma",
+  "Coughs & Colds",
+  "Cuts",
+  "Earaches",
+  "Eye Infections",
+  "Fever",
+  "Flu",
+  "Injuries",
+  "Insect Bites",
+  "Rashes",
+  "Sinus Infections",
+  "Sore Throat",
+  "Sprains & Strains",
+  "Urinary Tract Infections",
+  "Vaccines",
+  "Vomiting/Diarrhea",
+];
+
+export const supportServices = [
+  "Onsite Pharmacy",
+  "Laboratory Services",
+  "Radiology",
+  "Smoking Cessation",
+  "Health Coaching",
+  "Preventative Screenings",
+];
+
+export const testimonials = [
+  {
+    quote:
+      "Names and Numbers has had Direct Onsite Care for over 7 years now. Our Direct Onsite Care team is the best and is considered part of our company family. Having Direct Onsite Care has reduced our health insurance costs, helped with employee retention, and has drastically reduced absenteeism and time off to go see doctors off site, resulting in improved productivity. Our employees are extremely grateful to have this benefit. Every year they make sure we know they do not want to see this benefit go away. We would highly recommend every business add this benefit for their employees. You won’t regret it.",
+    name: "Todd McKnight",
+    role: "CEO",
+    company: "Names and Numbers",
+  },
+  {
+    quote:
+      "Pitt Plastics has had an On-Site Care clinic at our location since 2006. This on-site clinic offers direct care to all our employees and dependents covered on our insurance plan. Our employees save time and money by being able to access this clinic right at the work-site. It also provides Pitt Plastics money savings: the employees are back to work quickly with the medical care that they need and it saves on insurance costs. The providers are great to work with and our employees trust the staff with their medical care. The employees receive managed care for health conditions such as diabetes and high blood pressure care they may not have gotten if they had to take time away from work to get. The clinic also provides annual health assessments that gives the employees important information about their health. The on-site clinic is one of the best benefits we have been able to offer our employees.",
+    name: "Michele Beckmann",
+    role: "Director of Human Resources",
+    company: "Inteplast / Pitt Plastics",
+  },
+];
+
+
+export const challenges = [
+  "Rising healthcare and insurance costs",
+  "Employee absenteeism",
+  "Reduced workplace productivity",
+  "Time lost traveling to appointments",
+];
+
+export const teamMembers = [
+  {
+    name: "Dr. Brent Cosens D.O.",
+    role: "Founder & Medical Director",
+    image: "/images/DrCosens.png",
+    description:
+      "15+ years as an Emergency Room Physician and Director with a strong focus on accessible community healthcare and workplace wellness.",
+  },
+  {
+    name: "Michele Cosens R.T.(R)",
+    role: "Vice President",
+    image: "/images/Michele.png",
+    description:
+      "Experienced radiological technologist and business leader dedicated to improving healthcare accessibility and operational excellence.",
+  },
+  {
+    name: "Megan Runge, APRN",
+    role: "Executive Staff",
+    image: "/images/megan.png",
+    description:
+      "Advanced Registered Nurse Practitioner with ICU and ER experience focused on compassionate, patient-centered care.",
+  },
+  {
+    name: "Emily Johnson, APRN",
+    role: "Executive Staff",
+    image: "/images/emily.png",
+    description:
+      "Healthcare provider with strong ICU experience and a commitment to quality, individualized patient care.",
+  },
+  {
+    name: "Lacey, APRN",
+    role: "Executive Staff",
+    image: "/images/lacey.png",
+    description:
+      "Healthcare provider.",
+  },
 ];
