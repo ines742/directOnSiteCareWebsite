@@ -35,7 +35,7 @@ const Privacy = () => {
             </h2>
 
             <ul className="list-disc space-y-3 pl-6 leading-8">
-              <li>Name and contact information provided through forms.</li>
+              <li>Name and contact information provided through our forms.</li>
               <li>Email address and phone number.</li>
               <li>Information submitted when requesting services or appointments.</li>
               <li>Website usage data collected through analytics tools.</li>
@@ -154,18 +154,15 @@ const Privacy = () => {
               If you have questions regarding this Privacy Policy or how your
               information is handled, please contact Direct On Site Care.
             </p>
-
             <div className="mt-6 space-y-2">
               <p>
                 <strong>Email:</strong> bcosens@directonsitecare.com
               </p>
-
               <p>
                 <strong>Phone:</strong> (620) 875-1048
               </p>
             </div>
           </div>
-
           <p className="border-t pt-8 text-sm text-slate-500">
             Last Updated: May 2026
           </p>
