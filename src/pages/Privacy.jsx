@@ -161,7 +161,7 @@ const Privacy = () => {
               </p>
 
               <p>
-                <strong>Phone:</strong> (620) 249-9131
+                <strong>Phone:</strong> (620) 875-1048
               </p>
             </div>
           </div>

@@ -34,7 +34,7 @@ export const footerLinks = [
         title: "Get in Touch",
         links:[ 
             { name: "bcosens@directonsitecare.com", link: "mailto:bcosens@directonsitecare.com"},
-            { name: "620-249-9131", link: "tel:+16202499131"},
+            { name: "620-875-1048", link: "tel:+16208751048"},
             {
               name: "302 E. Centennial Pittsburg, KS 66762",
               link: "https://www.google.com/maps/search/?api=1&query=302+E+Centennial+Pittsburg+KS+66762",
